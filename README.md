@@ -23,7 +23,7 @@
 	require 'spec_helper'
 
 	describe Store do
-	  it { should have_attribute(:title)
+	  it { should have_attribute(:title) }
 	  it { should have_attribute(:description).with(:type => :string, :null => false) }
 	  it { should have_attribute(:url).with(:type => :string, :limit => 1024) }
 	  it { should have_attribute(:open).with(:type => :boolean) }
