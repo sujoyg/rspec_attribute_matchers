@@ -1,3 +1,5 @@
+require 'rspec'
+
 module RSpecAttributeMatchers
   def properties_to_sentence(hash)
     " of " + hash.map { |key, value| "#{key} #{value}" }.to_sentence
