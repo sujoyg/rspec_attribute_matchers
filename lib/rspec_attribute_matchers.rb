@@ -2,7 +2,7 @@ require 'rspec'
 
 module RSpecAttributeMatchers
   def properties_to_sentence(hash)
-    " of " + hash.map { |key, value| "#{key} #{value}" }.to_sentence
+    " of " + hash.map { |key, value| "#{key} #{value}" }.to_sentence if hash.present?
   end
 
   RSpec::Matchers.define :have_attribute do |attr|
