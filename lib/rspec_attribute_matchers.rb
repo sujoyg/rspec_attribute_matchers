@@ -8,6 +8,7 @@ module RSpecAttributeMatchers
   RSpec::Matchers.define :have_attribute do |attr|
     attr = attr.to_s
 
+    @extras = nil
     chain :with do |extras|
       @extras = extras
     end
