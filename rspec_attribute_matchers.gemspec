@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'rspec_attribute_matchers'
-  s.version     = '0.0.2'
+  s.version     = '0.0.3'
   s.date        = Time.now.to_date
   s.summary     = 'RSpec matchers for writing specs for activemodel attributes.'
   s.authors     = ['Sujoy Gupta']

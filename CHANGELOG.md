@@ -1,5 +1,8 @@
+# 0.0.3
+  * Fix: Do not cache the with clause for subsequent matches.'
+
 # 0.0.2
-  # Fix: Do not crash when the with clause is missing.
+  * Fix: Do not crash when the with clause is missing.
 
 # 0.0.1
   * Fix: Requiring rspec explicitly to eliminate 'uninitialized constant RSpecAttributeMatchers::RSpec' on running rake tasks.
