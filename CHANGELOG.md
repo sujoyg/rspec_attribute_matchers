@@ -1,3 +1,6 @@
+# 0.0.4
+  * Feature: Introducing validate_presence_of, validate_uniqueness_of and validate_inclusion_of matchers.
+
 # 0.0.3
   * Fix: Do not cache the with clause for subsequent matches.'
 
