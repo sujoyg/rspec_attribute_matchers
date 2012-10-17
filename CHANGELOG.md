@@ -1,3 +1,6 @@
+# 0.0.5
+  * Deprecating this gem in favor of specstar-models.
+
 # 0.0.4
   * Feature: Introducing validate_presence_of, validate_uniqueness_of and validate_inclusion_of matchers.
 
